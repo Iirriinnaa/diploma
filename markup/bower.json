@@ -1,0 +1,12 @@
+{
+  "name": "diplom-marukp",
+  "private": true,
+  "version": "0.0.0",
+  "authors": [
+    "irina"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap-sass": "*"
+  }
+}

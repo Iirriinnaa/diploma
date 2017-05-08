@@ -1,0 +1,78 @@
+.navbar-default{
+  position: fixed;
+  width: 100%;
+  background-color: #286090;
+  color: #ffffff;
+  margin-bottom:0;
+  z-index: 100;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  background-color: #1477CC;
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a{  /* ПУНКТЫ МЕНЮ*/
+  color: #ffffff;
+  transition: all .2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
+
+.navbar-default .navbar-brand{
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover{ /* текст Test-ISTU*/
+  color: #ffffff;
+  background-color: #337ab7;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #ffffff;
+  background-color: #337ab7;
+}
+
+body{
+  color: #ffffff;
+  height:100%;
+  background-image: url(http://medvesti.com/uploads/posts/2013-12/1387599898_arvuti-klaviatuur-it-programmeerija-infotehnoloogia-kommunikatsioon-email-66136546.jpg);
+}
+
+.text-center{
+  vertical-align: bottom;
+}
+
+.main-content{
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  background: rgba(255,255,255, .8);
+  box-shadow: 0 7px 10px 0 rgba(0,0,0,.25);
+}
+
+html{
+  height:100%;
+}
+
+.main-heading{
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  padding-top: 90px;
+  font-size: 26px;
+  text-transform: uppercase;
+  line-height: 34px;
+  color: #000;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  text-shadow: none;
+
+  @media screen and (max-width: 796px) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}

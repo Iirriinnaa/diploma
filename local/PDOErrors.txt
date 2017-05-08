@@ -1,0 +1,37 @@
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'\r\nSQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'\r\nSQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'\r\nSQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'"\r\n"SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'"\r\n"SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'"\r\n"SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+10.18.15, 21:18:20SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+10.18.15, 21:18:20SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+10.18.15, 21:18:21SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+10.18.15, 21:18:55 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+10.18.15, 21:18:55 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin' for key 'login_2'
+10.18.15, 23:04:24 SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10.18.15, 23:04:47 SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10.18.15, 23:10:03 SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10.18.15, 23:13:48 SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10.18.15, 23:14:57 SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10.18.15, 23:14:58 SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10.18.15, 23:14:59 SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10.18.15, 23:15:00 SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10.18.15, 23:15:50 SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10.18.15, 23:15:52 SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+10.18.15, 23:15:52 SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+11.08.15, 00:41:44 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'
+11.08.15, 00:45:07 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'
+11.08.15, 00:45:10 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'
+11.08.15, 00:50:41 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'
+11.08.15, 00:51:01 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'
+11.08.15, 00:51:03 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'
+11.22.15, 22:14:20 SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2,5' group by id_TB' at line 1
+12.01.15, 14:24:39 SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+12.01.15, 14:25:36 SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+12.01.15, 14:26:17 SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+12.01.15, 14:26:33 SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+12.01.15, 14:28:25 SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+12.01.15, 14:30:44 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sdfghjk' for key 'name'
+12.02.15, 12:09:44 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tatarin93' for key 'login'

@@ -1,0 +1,24 @@
+.row {
+    margin-bottom:10px;
+    width:220px;
+}
+.row label {
+    display:block;
+    font-weight:bold;
+}
+.row input.text {
+    font-size:1em;
+    padding:2px 5px;
+}
+.to_reg {
+    font-size:0.9em;
+}
+.instruction {
+    font-size:0.8em;
+    margin-left:2px;
+    cursor:default;
+}
+.error {
+    color:red;
+    margin-left:3px;
+}

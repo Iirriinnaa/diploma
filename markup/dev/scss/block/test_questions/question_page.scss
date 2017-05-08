@@ -1,0 +1,38 @@
+.panel-custom {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  box-shadow: none;
+  border: 0;
+  outline: 0;
+}
+
+.panel-container {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  font-size: 0;
+}
+
+.panel-item {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 24px;
+  width: 48%;
+  background-color: #fff;
+  height: 100%;
+
+  @media screen and (max-width: 796px) {
+    display: block;
+    width: 100%;
+  }
+
+  & + & {
+    margin-left: 30px;
+
+    @media screen and (max-width: 796px) {
+      margin-left: 0;
+    }
+  }
+}
