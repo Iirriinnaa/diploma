@@ -1,0 +1,29 @@
+.btn-default {
+    background-color: #286090;
+    color: #fff;
+    transition: all .2s ease-in-out;
+    border: none;
+
+    &:hover {
+        color: #fff;
+        background-color: #1477CC;
+        border: none;
+    }
+}
+
+.form-group {
+    label {
+        color: #333;
+    }
+}
+
+.form-control {
+    border-color: #286090;
+    box-shadow: inset 0 1px 1px rgba(20, 119, 204, 0.075);
+
+    &:focus {
+        border-color: #1477CC;
+        box-shadow: inset 0 1px 1px rgba(20, 119, 204, 0.075),
+                            0 0 8px rgba(20, 119, 204, 0.6);
+    }
+}
