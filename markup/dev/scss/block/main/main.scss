@@ -12,7 +12,7 @@
     color: #ffffff;
 }
 
-.navbar-default .navbar-nav > li > a { /* ПУНКТЫ МЕНЮ*/
+.navbar-default .navbar-nav > li > a {
     color: #ffffff;
     transition: all .2s ease-in-out;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
@@ -22,7 +22,7 @@
     color: #ffffff;
 }
 
-.navbar-default .navbar-brand:hover { /* текст Test-ISTU*/
+.navbar-default .navbar-brand:hover {
     color: #ffffff;
     background-color: #337ab7;
 }
@@ -50,6 +50,19 @@ body {
     margin: 0 auto;
     background: rgba(255, 255, 255, .8);
     box-shadow: 0 7px 10px 0 rgba(0, 0, 0, .25);
+
+    &--test-page {
+        width: 100%;
+        max-width: 100%;
+        background: #fff;
+        padding-top:  20px;
+        height: auto;
+        min-height: 1px;
+
+        @media screen and (min-width: 768px) {
+            padding-top: 40px;
+        }
+    }
 }
 
 .main-heading {
