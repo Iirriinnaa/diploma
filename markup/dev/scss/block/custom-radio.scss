@@ -50,9 +50,19 @@
             width: 14px;
             height: 14px;
             background-color: #286090;
-            transform: scale(.7);
+            transform: scale(.5);
             opacity: 0;
         }
+    }
+
+    &__input:hover + &__label:before {
+        border: 1px solid #1477CC;
+    }
+
+    &__input:hover + &__label:after {
+        transform: scale(.65);
+        background-color: #1477CC;
+        opacity: .5;
     }
 
     &__input:checked + &__label:before {
@@ -60,7 +70,7 @@
     }
 
     &__input:checked + &__label:after {
-       transform: scale(1);
+        transform: scale(1);
         background-color: #1477CC;
         opacity: 1;
     }

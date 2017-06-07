@@ -9,14 +9,55 @@
         padding-left: 15px;
     }
 
+    &__secondary-info {
+        margin-bottom: 5px;
+
+        @media screen and (min-width: 768px) {
+            margin-bottom: 8px;
+        }
+
+        @media screen and (min-width: 990px) {
+            margin-bottom: 0;
+        }
+    }
+
     &__name-of-test {
         box-sizing: border-box;
-        display: block;
-        color: #333;
+        display: inline-block;
+        width: 100%;
+        max-width: 70%;
+        height: 100%;
+        padding-right: 15px;
+        margin-bottom: 0;
         font-size: 14px;
         line-height: 1;
         letter-spacing: 0.036em;
-        padding-bottom: 5px;
+        color: #333;
+        vertical-align: top;
+
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+        }
+    }
+
+    &__time-wrapper {
+        float: right;
+        vertical-align: top;
+    }
+
+    &__time-value {
+        font-size: 16px;
+        color: #286090;
+
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+        }
+
+        @media screen and (min-width: 990px) {
+            font-size: 20px;
+
+        }
+
     }
 
     &__section {
@@ -35,7 +76,7 @@
     &__question-wrapper + &__answer-wrapper {
         margin-top: 20px;
 
-        @media screen and (min-width: 992px) {
+        @media screen and (min-width: 990px) {
             margin-top: 0;
             padding-left: 20px;
         }
@@ -48,7 +89,7 @@
         width: 100%;
         min-height: 400px;
         padding: 5px;
-        border: 1px solid rgba(40, 96, 144, 0.8);
+        border: 1px solid rgb(51, 134, 206);
         border-radius: 6px;
     }
 
@@ -64,7 +105,8 @@
     }
 
     &__image-wrapper + &__question-task {
-        margin-top: 15px;
+        margin-top: 30px;
+        padding-left: 0;
     }
 
     &__question-task {
@@ -72,10 +114,15 @@
         line-height: 1.3;
         letter-spacing: 0.036em;
         color: #444;
+        margin-bottom: 0;
+        margin-top: 10px;
+        padding-left: 10px;
 
         @media screen and (min-width: 768px) {
             font-size: 14px;
         }
+
+        //@media screen and ()
     }
 
     &__preview-answer {
@@ -83,16 +130,18 @@
         display: inline-block;
         width: 100%;
         min-height: 400px;
-        padding: 5px;
-        border: 1px solid rgba(40, 96, 144, 0.8);
+        //padding: 5px;
+        border: 1px solid rgb(51, 134, 206);
         border-radius: 6px;
     }
 
     &__how-much-answers {
         box-sizing: border-box;
         display: block;
-        background-color: rgba(136,136,136, .8);
         border-radius: 6px;
+        box-shadow: 0 2px 8px 0 rgba(33, 33, 33, .1);
+        padding: 5px 10px;
+        margin-bottom: 30px;
     }
 
     &__how-much-answers + &__form-answer {
@@ -103,20 +152,23 @@
         display: block;
         box-sizing: border-box;
         padding: 5px;
-        font-size: 14px;
-        line-height: 1.2;
+        font-size: 16px;
+        line-height: 1.3;
         color: #333;
+        margin-bottom: 0;
     }
 
     &__form-answer {
         box-sizing: border-box;
         display: block;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     &__field {
 
         & + & {
-            margin-top: 10px;
+            margin-top: 20px;
         }
     }
 
