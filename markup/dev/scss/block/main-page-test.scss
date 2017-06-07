@@ -172,7 +172,24 @@
         }
     }
 
-    &__btns-wrapper {
-        text-align: right;
+    &__btn-wrapper {
+
+        &--right {
+            text-align: right;
+        }
+
+        &--left {
+            text-align: left;
+        }
+    }
+
+    &__btn-prev {
+        background-color: lightgray;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            color: #fff;
+            background-color: #a7a7a7;
+        }
     }
 }
