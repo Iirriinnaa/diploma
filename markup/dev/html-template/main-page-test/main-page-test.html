@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="main-content main-content--test-page">
+    <div class="main-page-test container">
+        <div class="main-page-test__section row">
+            <h1 class="col-xs-12 main-page-test__title section-heading">Тест</h1>
+        </div>
+        <div class="row">
+            <div class="main-page-test__secondary-info col-xs-12 col-sm-12 col-lg-12">
+                <p class="main-page-test__name-of-test">
+                    Название теста
+                </p>
+                <div class="main-page-test__time-wrapper">
+                    <span class="main-page-test__time-value">59:43</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-page-test__section row">
+            <div class="main-page-test__question-wrapper col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="main-page-test__preview-question">
+                    <div class="main-page-test__image-wrapper">
+                        <img class="main-page-test__img-question" src="http://placehold.it/300x200" alt="">
+                    </div>
+                    <p class="main-page-test__question-task">
+                        Если функция описывает гармоническое колебательное движение, то частотой колебания называется величина …
+                    </p>
+                </div>
+            </div>
+            <div class="main-page-test__answer-wrapper col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="main-page-test__preview-answer">
+                    <div class="main-page-test__how-much-answers">
+                        <p class="main-page-test__how-much-text">
+                            Вы можете выбрать 1 вариант
+                        </p>
+                    </div>
+                    <form class="main-page-test__form-answer" method="post" action="">
+                        <div class="main-page-test__field custom-radio">
+                            <input id="radio_1" type="radio" name="question_1" class="custom-radio__input custom-radio__input--radio">
+                            <label class="custom-radio__label" for="radio_1">Называется вот так</label>
+                        </div>
+                        <div class="main-page-test__field custom-radio">
+                            <input id="radio_2" type="radio" name="question_1" class="custom-radio__input custom-radio__input--radio">
+                            <label class="custom-radio__label" for="radio_2">Называется вот так</label>
+                        </div>
+                        <div class="main-page-test__field custom-radio">
+                            <input id="radio_3" type="radio" name="question_1" class="custom-radio__input custom-radio__input--radio">
+                            <label class="custom-radio__label" for="radio_3">Называется вот так</label>
+                        </div>
+                        <div class="main-page-test__field custom-radio">
+                            <input id="radio_4" type="radio" name="question_1" class="custom-radio__input custom-radio__input--radio">
+                            <label class="custom-radio__label" for="radio_4">Называется вот так</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-page-test__section row">
+            <div class="col-xs-6 main-page-test__btn-wrapper main-page-test__btn-wrapper--left">
+                <button class="main-page-test__btn-prev btn">Назад</button>
+            </div>
+
+            <div class="col-xs-6 main-page-test__btn-wrapper main-page-test__btn-wrapper--right">
+                <button class="main-page-test__btn-next btn btn-default">Следующий вопрос</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+
+</body>
+</html>
