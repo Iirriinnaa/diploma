@@ -1,0 +1,33 @@
+.login-tooltip {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  font-family: 'Times New Roman', 'Arial', sans-serif;
+  border-radius: 50%;
+  background-color: #286090;
+  color: #fff;
+  font-size: 12.5px;
+  text-align: center;
+}
+
+.btn-reset {
+  color: #000;
+  transition: all .2s ease-in-out;
+  border: none;
+}
+
+.btn-reset:hover {
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.btn.btn-default + .btn-reset {
+  margin-left: 20px;
+}
+
+.test-description {
+  display: block;
+  width: 100%;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.2;
+}
